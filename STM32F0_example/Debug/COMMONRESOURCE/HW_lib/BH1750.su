@@ -1,0 +1,2 @@
+BH1750.c:46:6:BH1750_setup	0	static
+BH1750.c:71:4:BH1750_rdLux	24	static

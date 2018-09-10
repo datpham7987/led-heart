@@ -1,0 +1,5 @@
+STM32F0_tim.c:47:6:TIM_setup	48	static
+STM32F0_tim.c:356:10:TIM_getCt	8	static
+STM32F0_tim.c:381:6:TIM_setCt	8	static
+STM32F0_tim.c:406:6:TIM1_IRQHandler	8	static
+STM32F0_tim.c:422:6:TIM3_IRQHandler	8	static

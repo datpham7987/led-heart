@@ -1,0 +1,3 @@
+PCF8574.c:31:6:PCF8574_setup	0	static
+PCF8574.c:40:4:PCF8574_wrt	16	static
+PCF8574.c:48:4:PCF8574_rd	8	static

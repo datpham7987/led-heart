@@ -1,0 +1,9 @@
+STM32F0_io.c:42:7:IO_setupWKUP1	16	static
+STM32F0_io.c:60:6:IO_setup	24	static
+STM32F0_io.c:145:6:IO_EXTI_setup	32	static
+STM32F0_io.c:215:6:IO_wrt	8	static
+STM32F0_io.c:247:6:IO_toggle	16	static
+STM32F0_io.c:279:4:IO_rd	8	static
+STM32F0_io.c:309:6:EXTI0_1_IRQHandler	8	static
+STM32F0_io.c:327:6:EXTI2_3_IRQHandler	8	static
+STM32F0_io.c:345:6:EXTI4_15_IRQHandler	16	static

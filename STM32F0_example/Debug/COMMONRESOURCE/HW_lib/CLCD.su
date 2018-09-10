@@ -1,0 +1,17 @@
+CLCD.c:81:4:CLCD_BFwait	24	static
+CLCD.c:126:6:CLCD_wrtCmd	16	static
+CLCD.c:322:6:CLCD_SetDDRamAddress	8	static
+CLCD.c:179:4:CLCD_rdDat.part.2	16	static
+CLCD.c:52:6:CLCD_setup	8	static
+CLCD.c:157:6:CLCD_wrtDat	16	static
+CLCD.c:145:6:CLCD_wrtDats	16	static
+CLCD.c:205:6:CLCD_clrDisp	8	static
+CLCD.c:220:6:CLCD_clrLine	16	static
+CLCD.c:343:6:CLCD_GotoXY	8	static
+CLCD.c:355:6:CLCD_ShiftLineContent	56	static
+CLCD.c:398:4:CLCD_rdy	0	static
+CLCD.c:405:4:CLCD_isAvail	8	static
+CLCD.c:432:6:CLCD_startup	24	static
+CLCD.c:479:6:CLCD_wrtCGRAMdat	16	static
+CLCD.c:494:6:CLCD_loadCGRAM	88	static
+CLCD.c:517:6:CLCD_wrtLargeChar	32	static

@@ -1,0 +1,5 @@
+SDC.c:67:6:SDC_dbgPrt_pseudo	0	static
+SDC.c:75:6:SDC_setup_dbgPrt	0	static
+SDC.c:90:6:SDC_setup	0	static
+SDC.c:118:4:SDC_sendCMD	32	static
+SDC.c:165:4:SDC_ini	8	static

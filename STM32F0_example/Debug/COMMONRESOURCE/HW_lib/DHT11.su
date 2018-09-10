@@ -1,0 +1,2 @@
+DHT11.c:40:6:DHT11_setup	0	static
+DHT11.c:125:4:DHT11_read	88	static

@@ -1,0 +1,10 @@
+RS232camera.c:51:6:RS232CAM_delay10ms_fake	0	static
+RS232camera.c:62:6:RS232CAM_dbgPrt_pseudo	0	static
+RS232camera.c:183:6:RS232CAM_sdBytes	16	static
+RS232camera.c:193:6:RS232CAM_buf_clr	16	static
+RS232camera.c:147:5:RS232CAM_buf_rdBytes	40	static
+RS232camera.c:71:6:RS232CAM_setup_dbgPrt	0	static
+RS232camera.c:88:6:RS232CAM_setup	8	static
+RS232camera.c:101:6:RS232CAM_buf_wrtByte	12	static
+RS232camera.c:241:4:RS232CAM_takePhoto	40	static
+RS232camera.c:301:4:RS232CAM_rdPhotoPkt	48	static

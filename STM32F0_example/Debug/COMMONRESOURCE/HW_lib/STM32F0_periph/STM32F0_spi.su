@@ -1,0 +1,4 @@
+STM32F0_spi.c:34:6:SPI_setup	56	static
+STM32F0_spi.c:99:6:SPI_stopClkSrc	8	static
+STM32F0_spi.c:106:6:SPI_runClkSrc	8	static
+STM32F0_spi.c:113:9:SPI_wr1Byte	8	static

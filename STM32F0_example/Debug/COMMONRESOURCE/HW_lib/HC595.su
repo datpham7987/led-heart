@@ -1,0 +1,8 @@
+HC595.c:70:6:HC595_nop	0	static
+HC595.c:49:6:HC595_setup	24	static
+HC595.c:77:6:HC595_clr	8	static
+HC595.c:90:6:HC595_wByte	24	static
+HC595.c:114:6:HC595_w1bit	8	static
+HC595.c:125:6:HC595_shift	16	static
+HC595.c:138:6:HC595_latch	8	static
+HC595.c:148:6:HC595_setOutput	8	static

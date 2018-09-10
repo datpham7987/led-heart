@@ -1,0 +1,4 @@
+cirbuf.c:21:6:CIRBUF_setup	8	static
+cirbuf.c:37:4:CIRBUF_add	8	static
+cirbuf.c:59:4:CIRBUF_get	8	static
+cirbuf.c:79:5:CIRBUF_count	16	static

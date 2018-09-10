@@ -1,0 +1,2 @@
+additionalIRQhdler.c:19:6:RTOS_enterIRQ	0	static
+additionalIRQhdler.c:26:6:RTOS_exitIRQ	0	static

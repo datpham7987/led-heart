@@ -1,0 +1,4 @@
+cli.c:48:6:CLI_setup	8	static
+cli.c:60:4:CLI_regCmdHdl	12	static
+cli.c:76:6:CLI_processCmd	40	static
+cli.c:103:6:CLI_show	16	static

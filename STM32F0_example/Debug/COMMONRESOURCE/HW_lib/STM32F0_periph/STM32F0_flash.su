@@ -1,0 +1,8 @@
+STM32F0_flash.c:56:5:IFLASH_rdWord	0	static
+STM32F0_flash.c:66:6:IFLASH_setup	8	static
+STM32F0_flash.c:87:6:IFLASH_rd	8	static
+STM32F0_flash.c:243:6:IFLASH_waitUntilOccupied	8	static
+STM32F0_flash.c:100:4:IFLASH_wrt	40	static
+STM32F0_flash.c:187:4:IFLASH_massErase	16	static
+STM32F0_flash.c:257:6:IFLASH_releaseOccupying	0	static
+STM32F0_flash.c:266:6:IFLASH_safeWrtProceed	0	static

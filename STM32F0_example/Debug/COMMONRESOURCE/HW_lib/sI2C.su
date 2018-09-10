@@ -1,0 +1,7 @@
+sI2C.c:67:6:sI2C_genStart	8	static
+sI2C.c:80:6:sI2C_genStop	8	static
+sI2C.c:102:6:sI2C_write	32	static
+sI2C.c:126:4:sI2C_readACK	16	static
+sI2C.c:42:6:sI2C_setup	8	static
+sI2C.c:184:4:sI2C_wrtDat	32	static
+sI2C.c:223:4:sI2C_rdDat	40	static

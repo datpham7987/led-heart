@@ -1,0 +1,11 @@
+nRF24L01.c:178:6:dbgPrt_nothing	0	static
+nRF24L01.c:213:4:nRF24L01_wrt	32	static
+nRF24L01.c:232:4:nRF24L01_rd	32	static
+nRF24L01.c:186:6:nRF24L01_setup_dbgPrt	0	static
+nRF24L01.c:198:6:nRF24L01_setup	8	static
+nRF24L01.c:272:4:nRF24L01_ini	80	static
+nRF24L01.c:470:4:nRF24L01_snd	40	static
+nRF24L01.c:548:4:nRF24L01_pwrDown	16	static
+nRF24L01.c:573:4:nRF24L01_enterRXmode	24	static
+nRF24L01.c:598:4:nRF24L01_exitRXmode	16	static
+nRF24L01.c:623:4:nRF24L01_recv	48	static

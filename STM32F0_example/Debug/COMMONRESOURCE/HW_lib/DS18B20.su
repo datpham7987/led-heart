@@ -1,0 +1,7 @@
+DS18B20.c:59:6:DS18B20_print_nothing	0	static
+DS18B20.c:350:4:DS18B20_init	32	static
+DS18B20.c:393:6:DS18B20_wrt	24	static
+DS18B20.c:66:6:DS18B20_setup_dbgPrt	0	static
+DS18B20.c:80:6:DS18B20_setup	0	static
+DS18B20.c:89:4:DS18B20_updateCRC	8	static
+DS18B20.c:114:4:DS18B20_rdTemp	88	static

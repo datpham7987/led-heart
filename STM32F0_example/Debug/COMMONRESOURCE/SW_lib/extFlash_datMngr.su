@@ -1,0 +1,2 @@
+extFlash_datMngr.c:42:6:EXTFL_DM_setup	24	static
+extFlash_datMngr.c:97:6:EXTFL_DM_fullscan	0	static

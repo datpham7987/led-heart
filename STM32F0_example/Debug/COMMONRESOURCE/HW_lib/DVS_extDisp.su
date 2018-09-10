@@ -1,0 +1,7 @@
+DVS_extDisp.c:42:6:EXTDISP_prints	16	static
+DVS_extDisp.c:56:6:EXTDISP_setup	0	static
+DVS_extDisp.c:78:6:EXTDISP_readc	16	static
+DVS_extDisp.c:104:4:EXTDISP_getVer	0	static
+DVS_extDisp.c:137:4:EXTDISP_isButtonPressed	0	static
+DVS_extDisp.c:148:4:EXTDISP_gotOK	0	static
+DVS_extDisp.c:157:6:EXTDISP_wrtMsg	16	static

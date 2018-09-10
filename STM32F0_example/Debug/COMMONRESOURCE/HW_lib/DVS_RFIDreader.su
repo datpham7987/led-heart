@@ -1,0 +1,9 @@
+DVS_RFIDreader.c:92:6:DVSRFID_printc_pseudo	0	static
+DVS_RFIDreader.c:128:6:DVSRFID_clrBuf	8	static
+DVS_RFIDreader.c:51:6:DVSRFID_strsplit.constprop	24	static
+DVS_RFIDreader.c:99:6:DVSRFID_prints	16	static
+DVS_RFIDreader.c:111:6:DVSRFID_setup	8	static
+DVS_RFIDreader.c:141:6:DVSRFID_readc	16	static
+DVS_RFIDreader.c:185:4:DVSRFID_readDrvInfo	136	static
+DVS_RFIDreader.c:267:4:DVSRFID_getVer	120	static
+DVS_RFIDreader.c:321:4:DVSRFID_setLED	120	static

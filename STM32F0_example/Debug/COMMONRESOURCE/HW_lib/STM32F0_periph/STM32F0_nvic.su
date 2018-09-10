@@ -1,0 +1,4 @@
+STM32F0_nvic.c:31:6:NVIC_add	32	static
+STM32F0_nvic.c:58:6:NVIC_rmv	24	static
+STM32F0_nvic.c:76:6:NVIC_disableAll	20	static
+STM32F0_nvic.c:86:6:NVIC_enableAll	20	static

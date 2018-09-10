@@ -1,0 +1,8 @@
+memMngr.c:77:6:MM_dbgPrt_pseudo	0	static
+memMngr.c:84:6:MM_setup_dbgPrt	0	static
+memMngr.c:96:6:MM_setup	8	static
+memMngr.c:108:6:MM_timertick1sCB	72	static
+memMngr.c:140:6:MM_show	48	static
+memMngr.c:252:7:MM_get	32	static
+memMngr.c:314:6:MM_free	24	static
+memMngr.c:352:4:MM_resize	16	static

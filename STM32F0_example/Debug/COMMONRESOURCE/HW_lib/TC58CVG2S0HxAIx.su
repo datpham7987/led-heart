@@ -1,0 +1,4 @@
+TC58CVG2S0HxAIx.c:62:6:TSB_SPIFL_print_pseudo	0	static
+TC58CVG2S0HxAIx.c:70:6:TSB_SPIFL_setup_dbgPrt	0	static
+TC58CVG2S0HxAIx.c:89:6:TSB_SPIFL_setup	8	static
+TC58CVG2S0HxAIx.c:120:6:TSB_SPIFL_readId	24	static

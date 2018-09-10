@@ -1,0 +1,6 @@
+RFprotocol.c:24:6:RFprotocol_transmitData_2_bytes	24	static
+RFprotocol.c:54:4:RFprotocol_bytes_2_transmitData	16	static
+RFprotocol.c:100:6:RFprotocol_ACK_2_bytes	16	static
+RFprotocol.c:122:4:RFprotocol_bytes_2_ACK	8	static
+RFprotocol.c:157:6:RFprotocol_setUID_2_bytes	16	static
+RFprotocol.c:183:4:RFprotocol_bytes_2_setUID	8	static

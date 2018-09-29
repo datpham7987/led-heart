@@ -1,5 +1,9 @@
 
-
+////////B2///////A2//////////
+////B3/////B1/A1////A3/////////
+/////B..////////////A..//////
+//////////////////////
+//////////B8/A8////////////
 #include "stm32f0xx.h"
 #include"stm32f0xx_gpio.h"
 #include"stm32f0xx_rcc.h"
@@ -37,6 +41,9 @@ void HC595_Latch(void);
 void Shift_Out(uint8_t Data);
 void HC595_Pulse(void);
 void Led_1(void);
+void Led_2(void);
+void Led_3(void);
+void Led_4(void);
 void TIM3_IRQHandler(void);
 int main(void)
 {
@@ -76,17 +83,21 @@ int main(void)
 	NVIC_Init(&NVIC_InitStructure);
 	while(1)
 	{
-		Shift_Out(x);
-		Shift_Out(y);
-		HC595_Latch();
-		for(int i = 0;i < 5000000; i++)
-		{
-		}
-		x = x << 1;
-		if(x > 0x80)
-		{
-			x = 0x01;
-		}
+//		Shift_Out(0x01);
+//		Shift_Out(0x01);
+//		HC595_Latch();
+//		for(int i = 0;i < 5000000; i++)
+//		{
+//		}
+//		x = x << 1;
+//		if(x > 0x80)
+//		{
+//			x = 0x01;
+//		}
+		Led_1();
+		Led_2();
+		Led_3();
+		Led_4();
 	}
 }
 
@@ -116,24 +127,26 @@ void Led_1(void)
 	for(int i = 0 ;i < 8 ; i++)
 	{
 		Shift_Out(x);
-		Shift_Out(y);
+		Shift_Out(0x00);
 		HC595_Latch();
-		for(int i = 0;i < 5000000; i++)
+		for(int k= 0;k < 100000; k++)
 		{
+			GPIO_SetBits(GPIOA,LED);
 		}
 		x = x << 1;
 	}
 	x = 0x00;
-	y = 0x01;
+	y = 0x80;
 	for(int i = 0 ;i < 8 ; i++)
 	{
-		Shift_Out(x);
+		Shift_Out(0x00);
 		Shift_Out(y);
 		HC595_Latch();
-		for(int i = 0;i < 5000000; i++)
+		for(int k = 0;k < 100000; k++)
 		{
+			GPIO_SetBits(GPIOA,LED);
 		}
-		y = y << 1;
+		y = y >> 1;
 	}
 }
 /*
@@ -143,16 +156,17 @@ void Led_1(void)
 void Led_2(void)
 {
 	x = 0x00;
-	y = 0x80;
+	y = 0x01;
 	for(int i = 0 ;i < 8 ; i++)
 	{
 		Shift_Out(x);
 		Shift_Out(y);
 		HC595_Latch();
-		for(int i = 0;i < 5000000; i++)
+		for(int k= 0;k < 100000; k++)
 		{
+			GPIO_SetBits(GPIOA,LED);
 		}
-		y = y >> 1;
+		y = y << 1;
 	}
 	x = 0x80;
 	y = 0x00;
@@ -161,8 +175,9 @@ void Led_2(void)
 		Shift_Out(x);
 		Shift_Out(y);
 		HC595_Latch();
-		for(int i = 0;i < 5000000; i++)
+		for(int k= 0;k < 100000; k++)
 		{
+			GPIO_SetBits(GPIOA,LED);
 		}
 		x = x >> 1;
 	}
@@ -180,8 +195,9 @@ void Led_3(void)
 		Shift_Out(x);
 		Shift_Out(y);
 		HC595_Latch();
-		for(int i = 0;i < 5000000; i++)
+		for(int k= 0;k < 100000; k++)
 		{
+			GPIO_SetBits(GPIOA,LED);
 		}
 		x = x << 1;
 		y = y >> 1;
@@ -193,8 +209,9 @@ void Led_3(void)
 		Shift_Out(x);
 		Shift_Out(y);
 		HC595_Latch();
-		for(int i = 0;i < 5000000; i++)
+		for(int k= 0;k < 100000; k++)
 		{
+			GPIO_SetBits(GPIOA,LED);
 		}
 		x = x >> 1;
 		y = y << 1;
@@ -221,16 +238,17 @@ void Led_4(void)
 			Shift_Out(x);
 			Shift_Out(y);
 			HC595_Latch();
-			for(int i = 0;i < 5000000; i++)
+			for(int k= 0;k < 500000; k++)
 			{
+				GPIO_SetBits(GPIOA,LED);
 			}
 			x = x >> 1;
 			y = y >> 1;
 		}
-		a = a >> 1;
+		a = a << 1;
 		a = a |0x01;
-		a = b >> 1;
-		a = b |0x01;
+		b = b << 1;
+		b = b |0x01;
 
 	}
 }
@@ -243,7 +261,7 @@ void Shift_Out(uint8_t Data)
 {
 	for(uint8_t i = 0; i < 8; i++)
 	{
-		if(Data & 0x80)
+		if(Data & 0x80) // dich bit thu 8 vao truoc sau do den 7 6 5 4 3 2 1
 		{
 			GPIO_SetBits(GPIOA,SDI); // Data High
 		}
